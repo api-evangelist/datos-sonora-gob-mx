@@ -1,0 +1,56 @@
+aid: datos-sonora-gob-mx
+name: Sonora Open Data
+description: >-
+  Sonora Open Data is a state government open-data portal for Mexico running CKAN.
+  It exposes the CKAN catalog API over approximately 90 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - State Government
+  - Mexico
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datos-sonora-gob-mx:catalog
+    name: Sonora Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Sonora Open Data, ~90 datasets. Base URL https://datos.sonora.gob.mx/api/3/action/.
+    humanURL: https://datos.sonora.gob.mx
+    baseURL: https://datos.sonora.gob.mx/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datos.sonora.gob.mx
+      - type: x-api-endpoint
+        url: https://datos.sonora.gob.mx/api/3/action/package_search?rows=0
+common:
+  - type: Website
+    url: https://datos.sonora.gob.mx
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datos-sonora-gob-mx-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datos-sonora-gob-mx-rate-limits.yml
+  - type: FinOps
+    url: finops/datos-sonora-gob-mx-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

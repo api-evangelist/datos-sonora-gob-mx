@@ -1,0 +1,11 @@
+name: Sonora Open Data
+url: https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified, ~90 datasets.
+    endpoints:
+      - url: https://datos.sonora.gob.mx/api/3/action/package_search?rows=0
+        status: 200
