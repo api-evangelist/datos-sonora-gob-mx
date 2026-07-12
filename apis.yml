@@ -39,6 +39,8 @@ apis:
       - type: x-api-endpoint
         url: https://datos.sonora.gob.mx/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/datos-sonora-gob-mx-domain-security.yml
   - type: Website
     url: https://datos.sonora.gob.mx
   - type: Documentation
