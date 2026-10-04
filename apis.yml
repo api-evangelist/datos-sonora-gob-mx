@@ -28,13 +28,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datos-sonora-gob-mx.png
 url: https://raw.githubusercontent.com/api-evangelist/datos-sonora-gob-mx/refs/heads/main/apis.yml
+x-docs-platform: readthedocs
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-25
 tags:
   - Open Data
   - CKAN
   - Data Catalog
   - DCAT
   - Government Data
-  - State-Government
+  - State Government
   - Mexico
 tags_raw:
   - Open Data
@@ -44,6 +47,7 @@ tags_raw:
   - Government Data
   - State Government
   - Mexico
+  - State-Government
 created: '2026-06-07'
 modified: '2026-06-07'
 specificationVersion: '0.23'
